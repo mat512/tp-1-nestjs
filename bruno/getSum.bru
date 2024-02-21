@@ -4,12 +4,19 @@ meta {
   seq: 3
 }
 
-get {
-  url: http://localhost:3000/apikey
-  body: none
+post {
+  url: http://localhost:3000/sum
+  body: json
   auth: none
 }
 
 headers {
   Authorization: dogs
+}
+
+body:json {
+  {
+    "a": 2,
+    "b": 8
+  }
 }
