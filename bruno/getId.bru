@@ -1,0 +1,15 @@
+meta {
+  name: getId
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3000/dogs/1
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: dogs
+}

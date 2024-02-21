@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "name": "tp-1-nestjs",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git",
+    "dist",
+    "test",
+    "src"
+  ]
+}
